@@ -41,6 +41,10 @@
   
 }
 
+.drill_cursor {
+  padding: 5px 5px 5px 5px;
+}
+
 .container2 {
   box-sizing: border-box;
 }
