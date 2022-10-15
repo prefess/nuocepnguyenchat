@@ -282,3 +282,99 @@ for (i = 0; i < closebtns.length; i++) {
   });
 }
 }
+
+function myFunctionCHUOI() {
+
+// Create an "li" node:
+const node = document.createElement("li");
+
+// Create a text node:
+const textnode = document.createTextNode("Chuối 10K");
+  
+// Append the text node to the "li" node:
+  const textnode2 = document.createElement("span");
+  textnode2.setAttribute('class', 'close');
+  textnode2.innerHTML = "&times;" //String.fromCharCode("&times;");
+// Append the text node to the "li" node:
+node.appendChild(textnode);
+  node.appendChild(textnode2);
+node.appendChild(textnode);
+
+// Append the "li" node to the list:
+document.getElementById("myList").appendChild(node);
+  
+  
+  //xóa đối tượng
+   var closebtns = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+}
+
+function myFunctionXOAI() {
+
+// Create an "li" node:
+const node = document.createElement("li");
+
+// Create a text node:
+const textnode = document.createTextNode("Xoài 13K");
+  
+// Append the text node to the "li" node:
+  const textnode2 = document.createElement("span");
+  textnode2.setAttribute('class', 'close');
+  textnode2.innerHTML = "&times;" //String.fromCharCode("&times;");
+// Append the text node to the "li" node:
+node.appendChild(textnode);
+  node.appendChild(textnode2);
+node.appendChild(textnode);
+
+// Append the "li" node to the list:
+document.getElementById("myList").appendChild(node);
+  
+  
+  //xóa đối tượng
+   var closebtns = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+}
+
+function myFunctionBUOI() {
+
+// Create an "li" node:
+const node = document.createElement("li");
+
+// Create a text node:
+const textnode = document.createTextNode("Bưởi 20K");
+  
+// Append the text node to the "li" node:
+  const textnode2 = document.createElement("span");
+  textnode2.setAttribute('class', 'close');
+  textnode2.innerHTML = "&times;" //String.fromCharCode("&times;");
+// Append the text node to the "li" node:
+node.appendChild(textnode);
+  node.appendChild(textnode2);
+node.appendChild(textnode);
+
+// Append the "li" node to the list:
+document.getElementById("myList").appendChild(node);
+  
+  
+  //xóa đối tượng
+   var closebtns = document.getElementsByClassName("close");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+}
