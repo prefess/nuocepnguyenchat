@@ -10,8 +10,8 @@
 
 #try {
     background-color: orange;
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
     margin: auto;
 }
 
@@ -32,7 +32,7 @@
 }
 
 #product3 {
-    width: 65%;
+    width: 66%;
     height: 75%;
     background-color: white;
     float: left;
@@ -41,12 +41,12 @@
   
 }
 
-.drill_cursor {
-  padding: 5px 5px 5px 5px;
-}
-
 .container2 {
   box-sizing: border-box;
+}
+
+.drill_cursor {
+  padding: 5px 5px 5px 5px;
 }
 
 ul {
